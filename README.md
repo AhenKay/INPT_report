@@ -4,7 +4,7 @@ NOTA BENE:
 - BOLDEN A TEXT.
 - 
 - CHANGE TEXT COLOR.
-- <p style="color:red">HERE WE GO</p>
+- <p style="text-color:red">HERE WE GO</p>
 - 
 - IMAGES
 -[![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
