@@ -4,7 +4,12 @@
   <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK&itok=ye6EVwSc" alt="KNUST Logo" width="300"/>
 </p>
 
-### Network Penetration Testing
+## Network Penetration Testing
+
+### Submitted by:
+Samuel Ahenkorah
+Index Number: 7161521
+Student number: 20865105
 
 # Table of Contents
 1. [Introduction](#introduction)
