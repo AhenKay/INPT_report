@@ -43,3 +43,4 @@ Guidelines for contributing.
 # License
 Details about the project license.
 
+![My Image](https://github.com/your-username/your-repo-name/blob/main/images/my-image.png)
