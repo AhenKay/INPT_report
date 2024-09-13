@@ -1,5 +1,10 @@
 # Internship_Report
 
+<p align="center">
+  <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK&itok=ye6EVwSc" alt="KNUST Logo" width="300"/>
+</p>
+#Network Penetration Testing
+
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Summary](#summary)
@@ -37,9 +42,7 @@ NOTA BENE:
 <span style="color: blue;">This is blue text.</span>
 
 
-<p align="center">
-  <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK&itok=ye6EVwSc" alt="KNUST Logo" width="300"/>
-</p>
+
 
 <p align="center">
   <img src="https://www.brandsoftheworld.com/logo/knust-kwame-nkrumah-university-of-science-technology?original=1" alt="KNUST Logo" width="300"/>
