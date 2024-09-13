@@ -15,6 +15,6 @@ NOTA BENE:
 - HYPERLINK.
 - 
 - TABLE
-- | One | Two | Three |
+| One | Two | Three |
 |-----|-----|-------|
 | one | two | three |
