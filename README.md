@@ -8,8 +8,8 @@
 
 ### Submitted by:
 <p>Samuel Ahenkorah</p>
-Index Number: 7161521
-Student number: 20865105
+<p>Index Number: 7161521</p>
+<p>Student number: 20865105</p>
 
 # Table of Contents
 1. [Introduction](#introduction)
