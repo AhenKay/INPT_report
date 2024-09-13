@@ -1,9 +1,16 @@
 # Internship_Report
-## SAMUEL
-| One | Two | Three |
+
+NOTA BENE:
+- BOLDEN A TEXT.
+- 
+- CHANGE TEXT COLOR.
+- 
+- IMAGES
+- ![Alt text](image-url)
+
+- HYPERLINK.
+- 
+- TABLE
+- | One | Two | Three |
 |-----|-----|-------|
 | one | two | three |
-
-**LISTING**
-- Silas
-- Prince
