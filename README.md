@@ -6,7 +6,7 @@ NOTA BENE:
 - CHANGE TEXT COLOR.
 - 
 - IMAGES
-- ![Alt text]([image-url](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fgithub-logo_25231&psig=AOvVaw0U5w5MpO1mBofNY8rznIrF&ust=1726329360105000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCLDFwpSkwIgDFQAAAAAdAAAAABAE))
+-[![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
 
 - HYPERLINK.
 - 
