@@ -38,7 +38,7 @@ NOTA BENE:
 
 
 <p align="center">
-  <img src="https://www.google.com/imgres?imgurl=https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK%26itok%3Dye6EVwSc&imgrefurl=https://www.brandsoftheworld.com/logo/knust-kwame-nkrumah-university-of-science-technology&h=195&w=195&tbnid=d2e_0SAfI8DKaM&source=sa.im&tbnh=195&tbnw=195&usg=AI4_-kRKLlTCtGmOd5Cz9Ci-_mRO8P1l5A&vet=1&docid=HiYEnfaUg7RumM" alt="KNUST Logo" width="300"/>
+  <img src="https://images.app.goo.gl/T4qpCP4aXnLjmfFw7" alt="KNUST Logo" width="300"/>
 </p>
 
 - IMAGES
