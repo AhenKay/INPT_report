@@ -38,7 +38,7 @@ NOTA BENE:
 
 
 <p align="center">
-  <img src="https://images.app.goo.gl/T4qpCP4aXnLjmfFw7" alt="KNUST Logo" width="300"/>
+  <img src="https://google.com/knust-logo.png" alt="KNUST Logo" width="300"/>
 </p>
 
 - IMAGES
