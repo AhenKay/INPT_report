@@ -35,7 +35,12 @@ NOTA BENE:
 - 
 - CHANGE TEXT COLOR.
 <span style="color: blue;">This is blue text.</span>
-- 
+
+
+<p align="center">
+  <img src="https://www.google.com/imgres?imgurl=https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK%26itok%3Dye6EVwSc&imgrefurl=https://www.brandsoftheworld.com/logo/knust-kwame-nkrumah-university-of-science-technology&h=195&w=195&tbnid=d2e_0SAfI8DKaM&source=sa.im&tbnh=195&tbnw=195&usg=AI4_-kRKLlTCtGmOd5Cz9Ci-_mRO8P1l5A&vet=1&docid=HiYEnfaUg7RumM" alt="KNUST Logo" width="300"/>
+</p>
+
 - IMAGES
 ## [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
 <a href="https://github.com">
