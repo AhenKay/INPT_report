@@ -19,3 +19,27 @@ NOTA BENE:
 | One | Two | Three |
 |-----|-----|-------|
 | one | two | three |
+
+
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+
+# Introduction
+This is the introduction section.
+
+# Installation
+Here’s how to install the project.
+
+# Usage
+Here’s how to use the project.
+
+# Contributing
+Guidelines for contributing.
+
+# License
+Details about the project license.
+
