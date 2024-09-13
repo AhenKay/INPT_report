@@ -19,6 +19,12 @@ NOTA BENE:
 | One | Two | Three |
 |-----|-----|-------|
 | one | two | three |
+| DDoS-ICMP_Flood     | DDoS-RSTFIN_Flood         | DDoS-HTTP_Flood       |
+|---------------------|---------------------------|-----------------------|
+| DDoS-UDP_Flood      | DDoS-SynonymousIP_Flood    | DDoS-SlowLoris        |
+| DDoS-TCP_Flood      | DDoS-PSHACK_Flood          | DDoS-ICMP_Fragmentation|
+| DDoS-SYN_Flood      | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood      |
+
 
 
 # Table of Contents
