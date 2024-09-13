@@ -2,25 +2,33 @@
 
 # Table of Contents
 1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+2. [Summary](#summary)
+3. [Testing Methodogy](#TestingMethodogy)
+4. [Host Discovery](#HostDiscovery)
+5. [Sevice Discovery and Port Scanning](#SeviceDiscoveryandPortScanning)
+6. [Web-Based Attack Surfaces](#Web-BasedAttackSurfaces)
+7. [Generating Payloads](#GeneratingPayloads)
 
 # Introduction
 This is the introduction section.
 
-# Installation
+# Summary
 Here’s how to install the project.
 
-# Usage
+# Testing Methodogy
 Here’s how to use the project.
 
-# Contributing
+# Host Discovery
 Guidelines for contributing.
 
-# License
+# Sevice Discovery and Port Scanning
 Details about the project license.
+
+# Web-Based Attack Surfaces
+Details about the project license.
+
+# Generating Payloads
+This is the introduction section.
 
 NOTA BENE:
 - BOLDEN A TEXT.
