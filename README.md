@@ -7,6 +7,9 @@ NOTA BENE:
 - 
 - IMAGES
 -[![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
+<a href="https://github.com">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="100" height="100">
+</a>
 
 - HYPERLINK.
 - 
