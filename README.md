@@ -38,7 +38,7 @@ NOTA BENE:
 
 
 <p align="center">
-  <img src="https://google.com/knust-logo.png" alt="KNUST Logo" width="300"/>
+  <img src="https://www.brandsoftheworld.com/logo/knust-kwame-nkrumah-university-of-science-technology?original=1" alt="KNUST Logo" width="300"/>
 </p>
 
 - IMAGES
