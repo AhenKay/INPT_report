@@ -48,6 +48,12 @@ When using nmap, there are some various options or arguments that are used in ho
 
 In this case, we are doing a scan report so we will use the "-sL" argument
 
+<p align="center">
+  <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK&itok=ye6EVwSc" alt="KNUST Logo" width="300"/>
+</p>
+
+
+
 # Sevice Discovery and Port Scanning
 Details about the project license.
 
