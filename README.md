@@ -39,7 +39,12 @@ Here’s how to use the project.
 # Host Discovery
 <p>Host discovery is a process of finding live hosts on a network. it can be used to narrow down the scope of a network assesment or during security testing. One tool which is mostly used in host discovery is the nmap tool.</p>
 
-<p>**Nmap** is an open-source command-line tool that uses ICMP, echo requests, TCP, and UDP packets to discover hosts.</p>
+__Nmap__ is an open-source command-line tool that uses ICMP, echo requests, TCP, and UDP packets to discover hosts.
+
+When using nmap, there are some various options or arguments that are used in hoat discovery, depending on the specific tasks to be done. Some of these are;
+- -sL: List scan(Simply list targets to scan)
+- -sN: Ping scan(Disable port scan)
+- -Pn: Treat all hosts as online(Skip host discovery), etc...
 
 # Sevice Discovery and Port Scanning
 Details about the project license.
