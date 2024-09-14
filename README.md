@@ -21,11 +21,11 @@
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Summary](#summary)
-3. [Testing Methodogy](#TestingMethodogy)
-4. [Host Discovery](#HostDiscovery)
-5. [Sevice Discovery and Port Scanning](#SeviceDiscoveryandPortScanning)
-6. [Web-Based Attack Surfaces](#Web-BasedAttackSurfaces)
-7. [Generating Payloads](#GeneratingPayloads)
+3. [Testing_Methodogy](#TestingMethodogy)
+4. [Host_Discovery](#HostDiscovery)
+5. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
+6. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
+7. [Generating_Payloads](#GeneratingPayloads)
 
 # Introduction
 This is the introduction section.
