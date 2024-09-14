@@ -45,6 +45,7 @@ When using nmap, there are some various options or arguments that are used in ho
 - -sL: List scan(Simply list targets to scan)
 - -sN: Ping scan(Disable port scan)
 - -Pn: Treat all hosts as online(Skip host discovery), etc...
+
 In this case, we are doing a scan report so we will use the "-sL" argument
 
 # Sevice Discovery and Port Scanning
