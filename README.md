@@ -33,7 +33,7 @@ This is the introduction section.
 # Summary
 Here’s how to install the project.
 
-# Testing Methodogy
+# Testing_Methodogy
 Here’s how to use the project.
 
 # Host Discovery
