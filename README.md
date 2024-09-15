@@ -74,7 +74,15 @@ Enumerating subdomains for https://virtualinfosecafrica.com using a wordlist loc
 
 
 # Sevice Discovery and Port Scanning
-Details about the project license.
+Service discoveery or port scanning is the process of actively probing a target network to identify open ports and services running on them, essentially mapping out what applications and potential vulnerabilities are exposed on the system by checking which ports are actively listening for connections, thus providing valuable information for further penetration testing.
+
+Service discovery and port scanning are essential components of network security assessments, penetration testing, and general network management
+
+Knowing which services are running and which ports are open helps in assessing the security posture of a system. Unnecessary or outdated services can be exploited if not properly secured.
+
+Certain services might have known vulnerabilities. By discovering these services, you can apply relevant security patches or configurations.
+
+Ensuring that only authorized services are running is often a requirement for compliance with security standards and regulations.
 
 # Web-Based Attack Surfaces
 Details about the project license.
