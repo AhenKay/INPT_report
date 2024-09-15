@@ -17,8 +17,9 @@
 3. [Testing_Methodogy](#TestingMethodogy)
 4. [Host_Discovery](#HostDiscovery)
 5. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
-6. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
-7. [Generating_Payloads](#GeneratingPayloads)
+6. [vulnerabilities](#vulnerabilities)
+7. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
+8. [Generating_Payloads](#GeneratingPayloads)
 
 # Introduction
 This is the introduction section.
@@ -113,6 +114,7 @@ grep "/tcp" tcp_services.txt > tcp_services_separated.txt
 ![grep_tcp](Images/grep_tcp.png)
 
 
+# vulnerabilities
 
 # Web-Based Attack Surfaces
 Details about the project license.
@@ -120,29 +122,7 @@ Details about the project license.
 # Generating Payloads
 This is the introduction section.
 
-NOTA BENE:
-- BOLDEN A TEXT.
-- 
-- CHANGE TEXT COLOR.
-<span style="color: blue;">This is blue text.</span>
 
-
-
-
-<p align="center">
-  <img src="https://www.brandsoftheworld.com/logo/knust-kwame-nkrumah-university-of-science-technology?original=1" alt="KNUST Logo" width="300"/>
-</p>
-
-- IMAGES
-## [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
-<a href="https://github.com">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="100" height="100">
-</a>
-
-- HYPERLINK.
-- 
-- TABLE
-- 
 | One | Two | Three |
 |-----|-----|-------|
 | one | two | three |
