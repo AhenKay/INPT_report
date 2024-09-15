@@ -46,10 +46,7 @@ The output of the nmap command includes information about hosts that are up. Too
 
 nmap -sn 10.10.10.0/24 | grep "Nmap scan report for" | awk '{print $5}'
 
-This command sequence:
-
-Uses grep to find lines that indicate a host is up.
-Uses awk to print only the IP addresses.
+This command sequence uses grep to find lines that indicate a host is up and also uses awk to print only the IP addresses.
 
 To save the results to a file, redirect the output of the above command to a file. For example: 
 
