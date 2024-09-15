@@ -128,6 +128,8 @@ we now search for available auxiliary modules in Metasploit that can scan for vu
 search type:auxiliary
 using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
 
+![msconf](Images/msconf.png)
+
 
 
 
