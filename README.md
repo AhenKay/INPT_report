@@ -54,12 +54,14 @@ In this case, we are doing a scan report so we will use the "-sn" argument. The 
 
 
 <p align="left">
-  <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_245.png?PZfG4BZ0MhiFothT02x6wcPjPrqeJsUK&itok=ye6EVwSc" alt="KNUST Logo" width="300"/>
+  <img src="" alt="KNUST Logo" width="300"/>
 </p>
 
 The output of the nmap command includes information about hosts that are up. Tools like grep and awk are used to filter this information. To extract only the lines showing hosts that are up, you can use:
 
 nmap -sn 10.10.10.0/24 | grep "Nmap scan report for" | awk '{print $5}'
+
+![PSG](Images/ping_scan_grep.png)
 
 This command sequence uses grep to find lines that indicate a host is up and also uses awk to print only the IP addresses.
 
