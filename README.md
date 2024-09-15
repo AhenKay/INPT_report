@@ -98,7 +98,11 @@ Certain services might have known vulnerabilities. By discovering these services
 
 Ensuring that only authorized services are running is often a requirement for compliance with security standards and regulations.
 
-To run a  service discovery scan and save to a greppable nmap file, we use the command line; nmap -sV -oG nmap_services.txt 10.10.10.0/24
+To run a  service discovery scan and save to a greppable nmap file, we use the command line;
+
+nmap -sV -oG nmap_services.txt 10.10.10.0/24
+
+![nmap_oG](Images/nmap_oG.png)
 
 Once you have the nmap results in greppable format, the results can be filtered by protocol by using grep.
 
