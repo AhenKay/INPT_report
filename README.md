@@ -130,6 +130,8 @@ using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
 
 ![msconf](Images/msconf.png)
 
+![searchtype](Images/searchtype.png)
+
 
 
 
