@@ -50,7 +50,7 @@ In this case, we are doing a scan report so we will use the "-sn" argument. The 
 
 #### For -Pn scan
 
-![Bypass_scan](Images/Bypass_online_scan.png)
+![Bypass_scan](Images/Bypass_online.png)
 
 
 <p align="left">
