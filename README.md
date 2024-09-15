@@ -69,6 +69,8 @@ To save the results to a file, redirect the output of the above command to a fil
 
 nmap -sn 10.10.10.0/24 | grep "Nmap scan report for" | awk '{print $5}' > hosts_up.txt
 
+![Host_up](Images/host_up.png)
+
 This command will create (or overwrite) a file named hosts_up.txt with the list of IP addresses of hosts that are up.
 
 You can check the contents of the file to ensure it has been written correctly by using; cat hosts_up.txt
