@@ -53,9 +53,7 @@ In this case, we are doing a scan report so we will use the "-sn" argument. The 
 ![Bypass_scan](Images/Bypass_online.png)
 
 
-<p align="left">
-  <img src="" alt="KNUST Logo" width="300"/>
-</p>
+
 
 The output of the nmap command includes information about hosts that are up. Tools like grep and awk are used to filter this information. To extract only the lines showing hosts that are up, you can use:
 
@@ -108,6 +106,8 @@ To extract TCP services, we use:
 
 grep "/tcp" tcp_services.txt > tcp_services_separated.txt
 
+![grep_tcp](Images/grep_tcp.png)
+
 
 
 # Web-Based Attack Surfaces
@@ -150,6 +150,11 @@ NOTA BENE:
 | DDoS-UDP_Flood      | DDoS-SynonymousIP_Flood    | DDoS-SlowLoris        |
 | DDoS-TCP_Flood      | DDoS-PSHACK_Flood          | DDoS-ICMP_Fragmentation|
 | DDoS-SYN_Flood      | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood      |
+
+
+<p align="left">
+  <img src="" alt="KNUST Logo" width="300"/>
+</p>
 
 
 
