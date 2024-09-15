@@ -62,7 +62,8 @@ You can check the contents of the file to ensure it has been written correctly b
 
 Subdomain enumeration can also be performed using aiodnsbrute
 
-Enumerating subdomains for https://virtualinfosecafrica.com using a wordlist located at /usr/share/wordlists/rockyou.txt. would be done by using: aiodnsbrute -d example.com -w /usr/share/wordlists/rockyou.txt
+Enumerating subdomains for https://virtualinfosecafrica.com using a wordlist located at /usr/share/wordlists/rockyou.txt. would be done by using: 
+aiodnsbrute -d https://virtualinfosecafrica.com -w /Desktop/netPen/Host_discoveries/Service_discovery.txt
 
 
 
@@ -83,6 +84,16 @@ Knowing which services are running and which ports are open helps in assessing t
 Certain services might have known vulnerabilities. By discovering these services, you can apply relevant security patches or configurations.
 
 Ensuring that only authorized services are running is often a requirement for compliance with security standards and regulations.
+
+To run a  service discovery scan and save to a greppable nmap file, we use the command line; nmap -sV -oG nmap_services.txt 10.10.10.0/24
+
+Once you have the nmap results in greppable format, the results can be filtered by protocol by using grep.
+
+To extract TCP services, we use:
+
+grep "/tcp" tcp_services.txt > tcp_services_separated.txt
+
+
 
 # Web-Based Attack Surfaces
 Details about the project license.
