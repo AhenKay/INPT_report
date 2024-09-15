@@ -77,7 +77,9 @@ You can check the contents of the file to ensure it has been written correctly b
 Subdomain enumeration can also be performed using aiodnsbrute
 
 Enumerating subdomains for https://virtualinfosecafrica.com using a wordlist located at /usr/share/wordlists/rockyou.txt. would be done by using: 
-aiodnsbrute -d https://virtualinfosecafrica.com -w /Desktop/netPen/Host_discoveries/Service_discovery.txt
+
+aiodnsbrute -d example.com -w /usr/share/wordlists/rockyou.txt > subdomains.txt
+
 
 
 
