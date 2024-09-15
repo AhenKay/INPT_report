@@ -132,7 +132,7 @@ using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
 
 ![searchtype](Images/searchtype.png)
 
-
+![aux](Images/auxiliary.png)
 
 
 
