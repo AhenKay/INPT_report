@@ -17,7 +17,7 @@
 3. [Testing_Methodogy](#TestingMethodogy)
 4. [Host_Discovery](#HostDiscovery)
 5. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
-6. [vulnerabilities](#vulnerabilities)
+6. [vulnerabilities](#Vulnerabilities)
 7. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
 8. [Generating_Payloads](#GeneratingPayloads)
 
@@ -114,7 +114,7 @@ grep "/tcp" tcp_services.txt > tcp_services_separated.txt
 ![grep_tcp](Images/grep_tcp.png)
 
 
-# vulnerabilities
+# Vulnerabilities
 
 # Web-Based Attack Surfaces
 Details about the project license.
