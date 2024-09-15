@@ -44,9 +44,13 @@ In this case, we are doing a scan report so we will use the "-sn" argument. The 
 
 ![Example Image](Images/ping_scan.png)
 
-### For -sL scan
+#### For -sL scan
 
 ![List_scan](Images/list_scan.png)
+
+#### For -Pn scan
+
+![Bypass_scan](Images/Bypass_online_scan.png)
 
 
 <p align="left">
