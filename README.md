@@ -117,6 +117,21 @@ grep "/tcp" tcp_services.txt > tcp_services_separated.txt
 
 
 # Vulnerabilities
+Vulnerabilities are scan using metasploit by first running metasploit console
+
+we now search for available auxiliary modules in Metasploit that can scan for vulnerabilities based on nmap results, we use:
+
+search type:auxiliary
+using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
+
+
+
+In the Metasploit console, we use the db_import command to import the results.
+
+db_import /path/to/nmap_results.xml
+
+
+
 
 # Web-Based Attack Surfaces
 Details about the project license.
