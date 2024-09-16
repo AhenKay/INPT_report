@@ -12,17 +12,14 @@
 <p>Student number: 20865105</p>
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Summary](#summary)
-3. [Testing_Methodogy](#TestingMethodogy)
-4. [Host_Discovery](#HostDiscovery)
-5. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
-6. [vulnerabilities](#Vulnerabilities)
-7. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
-8. [Generating_Payloads](#GeneratingPayloads)
+1. [Summary](#summary)
+2. [Testing_Methodogy](#TestingMethodogy)
+3. [Host_Discovery](#HostDiscovery)
+4. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
+5. [vulnerabilities](#Vulnerabilities)
+6. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
+7. [Generating_Payloads](#GeneratingPayloads)
 
-# Introduction
-This is the introduction section.
 
 # Summary
 An Internal Network Penetration Test was performed on a scope comprising 10.10.10.0/24 and a domain name https://virtualinfosecafrica.com/ from September 12th, 2024 to September 14th, 2024. This report describes penetration testing that represents a point in time snapshots of the network security posture of the scope in question which can be found in the subsequent sessions.
