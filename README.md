@@ -152,26 +152,3 @@ Now we can access the bind shell by connecting to the specified port on the targ
 #### nc 10.10.10.55 4444
 
 
-
-| One | Two | Three |
-|-----|-----|-------|
-| one | two | three |
-
-
-
-| DDoS-ICMP_Flood     | DDoS-RSTFIN_Flood         | DDoS-HTTP_Flood       |
-|---------------------|---------------------------|-----------------------|
-| DDoS-UDP_Flood      | DDoS-SynonymousIP_Flood    | DDoS-SlowLoris        |
-| DDoS-TCP_Flood      | DDoS-PSHACK_Flood          | DDoS-ICMP_Fragmentation|
-| DDoS-SYN_Flood      | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood      |
-
-
-<p align="left">
-  <img src="" alt="KNUST Logo" width="300"/>
-</p>
-
-
-
-
-
-![My Image](https://github.com/your-username/your-repo-name/blob/main/images/my-image.png)
