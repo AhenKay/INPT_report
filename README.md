@@ -18,7 +18,6 @@
 4. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
 5. [vulnerabilities](#Vulnerabilities)
 6. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
-7. [Generating_Payloads](#GeneratingPayloads)
 
 
 # Summary
