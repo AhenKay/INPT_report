@@ -139,7 +139,7 @@ using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
 
 
 # Web-Based Attack Surfaces
-Details about the project license.
+![web_attack-surfaces_1](Images/web_attack-surfaces_1.png)
 
 #### Generating Payloads
 To use msfvenom to generate a payload that can trigger TCP bind shell, we use the command line;
