@@ -140,9 +140,6 @@ Now we can access the bind shell by connecting to the specified port on the targ
 
 #### nc 10.10.10.55 4444
 
-![WBAS](Images/WBAS.png)
-
 ![web_attack-surfaces_1](Images/web_attack-surfaces_1.png)
 
-
-
+![WBAS](Images/WBAS.png)
