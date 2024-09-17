@@ -149,6 +149,22 @@ Run the Scan:
 
 - run
 
+We can develop a custom wordlist by using cewl.
+
+CeWL (Custom Word List generator) is a tool that can be used to create a custom wordlist by crawling a website. This is particularly useful for tasks such as password cracking or fuzzing where a tailored wordlist might be more effective than a generic one. Here’s how you can use CeWL to generate a custom wordlist and describe scenarios where it would be useful.
+
+To generate a wordlist using CeWL, the target URL is specified and various parameters are optionally configured to customize the output.
+
+Using the command line;
+
+#### cewl http://virtualinfosecafrica.com -w custom_wordlist.txt
+
+Once the wordlist is generated, it can be reviewed to ensure it contains the desired entries by using;
+
+#### cat custom_wordlist.txt
+
+The wordlist file will be a plain text file with one word per line.
+
 
 # Web-Based Attack Surfaces
 Web-based attacks exploit vulnerabilities in web applications to gain unauthorized access, steal data, or disrupt services. Common attack types include SQL Injection, XSS, CSRF, File Inclusion, Command Injection, Broken Authentication, Directory Traversal, Security Misconfiguration, Insecure Deserialization, and SSRF. To protect against these attacks, employ secure coding practices, input validation, proper authentication mechanisms, and regularly update and configure your web applications and servers.
