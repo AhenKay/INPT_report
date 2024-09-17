@@ -184,6 +184,26 @@ Unauthenticated Remote Code Execution (RCE)
 Evidence
 This module exploit an unauthenticated RCE vulnerability which exists in Apache version 2.4.49 (CVE-2021-41773). If files outside of the document root are not protected by ‘require all denied’ and CGI has been explicitly enabled, it can be used to execute arbitrary commands (Remote Command Execution). This vulnerability has been reintroduced in Apache 2.4.50 fix (CVE-2021-42013).
 
+#### Affected Resources are;
+  '10.10.10.2, 10.10.10.30, 10.10.10.45, 10.10.10.55'
+#### Recommendations
+  Update to a newer patched version of Apache HTTP Server.
+  
+Denial of service (DoS)
+
+| Current Rating | CVSS Score |
+|----------------|------------|
+| Medium | 6.5 |
+
+These are the vulnerabilities associated with the service version MySQL 5.6.49  with the port 3306
+
+Evidence
+CVE-2020-14765: This vulnerability exists in the FTS component of MySQL Server. It allows a low-privileged attacker with network access to cause a denial of service (DoS) by causing the MySQL Server to hang or crash. The CVSS 3.1 Base Score for this vulnerability is 6.5, indicating a medium level of severity, primarily affecting availability.
+
+CVE-2020-14769: Found in the Optimizer component of MySQL Server, this vulnerability also allows a low-privileged attacker with network access to potentially cause a hang or crash, leading to a complete DoS of the MySQL Server. This issue also has a CVSS 3.1 Base Score of 6.5, indicating medium severity with an impact on availability.
+
+
+
 | SERVICE VERSIONS | VULNERABILITIES: EXPLOITDB | VULNERABILITIES: MITRE CVE|
 |--------------------------------------------|----------------------------|---------------------------|
 | http apache httpd 2.4.49                   | ------------ |(https://www.cve.org/CVERecord?id=CVE-2021-42013).    It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives.
