@@ -165,6 +165,27 @@ Once the wordlist is generated, it can be reviewed to ensure it contains the des
 
 The wordlist file will be a plain text file with one word per line.
 
+| Finding      | Severity     |
+|--------------|--------------|
+| Unauthenticated Remote Code Execution (RCE) | Critical |
+| Denial of service (DoS) | Moderate |
+| UltraVNC DSM Plugin Local Privilege Escalation | High |
+| Apache Tomcat AJP File Read/Inclusion | Critical |
+
+
+Summary of Findings
+Finding	Severity
+Unauthenticated Remote Code Execution (RCE)	Critical
+Denial of service (DoS)	Moderate
+UltraVNC DSM Plugin Local Privilege Escalation	High
+Apache Tomcat AJP File Read/Inclusion	Critical
+Detailed Findings
+Unauthenticated Remote Code Execution (RCE)
+Current Rating:	CVSS Score
+Critical	9.8
+Evidence
+This module exploit an unauthenticated RCE vulnerability which exists in Apache version 2.4.49 (CVE-2021-41773). If files outside of the document root are not protected by ‘require all denied’ and CGI has been explicitly enabled, it can be used to execute arbitrary commands (Remote Command Execution). This vulnerability has been reintroduced in Apache 2.4.50 fix (CVE-2021-42013).
+
 | SERVICE VERSIONS | VULNERABILITIES: EXPLOITDB | VULNERABILITIES: MITRE CVE|
 |--------------------------------------------|----------------------------|---------------------------|
 | http apache httpd 2.4.49                   | ------------ |(https://www.cve.org/CVERecord?id=CVE-2021-42013).    It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives.
