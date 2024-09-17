@@ -134,6 +134,8 @@ For example, if you want to scan mysql services for vulnerabilities:
 
 - use auxiliary/scanner/mysql/mysql_login
 
+![mysql](Images/mysql.png)
+
 Set the RHOSTS Option:
 
 Point RHOSTS to the protocol-specific file:
