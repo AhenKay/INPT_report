@@ -120,6 +120,27 @@ using:
 - use auxiliary/scanner/smb/smb_login
 
 we can scan for vulnerabilities
+To use protocol-specific file created, we can use it with scanning tools in Metasploit.
+
+First we launch msfconsole;
+
+- msfconsole
+
+Then select an Auxiliary Module:
+
+For example, if you want to scan mysql services for vulnerabilities:
+
+- use auxiliary/scanner/mysql/mysql_login
+
+Set the RHOSTS Option:
+
+Point RHOSTS to the protocol-specific file:
+
+- set RHOSTS file:/path/to/protocol_specific_file.txt
+
+Run the Scan:
+
+- run
 
 ![msconf](Images/msconf.png)
 
