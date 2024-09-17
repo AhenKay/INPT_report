@@ -110,7 +110,16 @@ db_import /path/to/nmap_results.xml
 we now search for available auxiliary modules in Metasploit that can scan for vulnerabilities based on nmap results, we use:
 
 search type:auxiliary
-using: use auxiliary/scanner/http/http_login , we can scan for vulnerabilities
+using:
+- use auxiliary/scanner/mysql/mysql_login,
+
+- use auxiliary/scanner/vnc/vnc_login
+
+- use auxiliary/scanner/rdp/rdp_login
+
+- use auxiliary/scanner/smb/smb_login
+
+we can scan for vulnerabilities
 
 ![msconf](Images/msconf.png)
 
