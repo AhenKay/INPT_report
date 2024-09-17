@@ -18,6 +18,7 @@
 4. [Sevice_Discovery_and_Port_Scanning](#SeviceDiscoveryandPortScanning)
 5. [vulnerabilities](#Vulnerabilities)
 6. [Web-Based_Attack_Surfaces](#Web-BasedAttackSurfaces)
+7. [CVSS v3.0 Reference Table](#CVSS_v3.0_Reference_Table)
 
 
 # Summary
@@ -254,22 +255,6 @@ If the web application permitted file uploads and stored those files within the 
 - Mitigation is essential if an AJP port is accessible to untrusted users.
 - For a defense-in-depth approach, users should upgrade to Apache Tomcat versions 9.0.31, 8.5.51, or 7.0.100 or later. These versions include hardened default configurations for the AJP Connector.
 - Users upgrading to these versions may need to adjust their configurations to align with the new default settings.
-
-
-| SERVICE VERSIONS | VULNERABILITIES: EXPLOITDB | VULNERABILITIES: MITRE CVE|
-|--------------------------------------------|----------------------------|---------------------------|
-| http apache httpd 2.4.49                   | ------------ |(https://www.cve.org/CVERecord?id=CVE-2021-42013).    It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives.
-| ssl/http apache httpd 2.4.49               | ------------ |(https://www.cve.org/CVERecord?id=CVE-2021-34798).  Malformed requests may cause the server to dereference a NULL pointer. This issue affects Apache HTTP Server 2.4.48 and earlier.
-| mysql MySQL 5.6.49                         | ------------ |(https://www.cve.org/CVERecord?id=CVE-2020-14867)   Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server.
-| vnc RealVNC 5.3.2                          | ------------ |(https://www.cve.org/CVERecord?id=CVE-2022-41975) . RealVNC VNC Server before 6.11.0 and VNC Viewer before 6.22.826 on Windows allow local privilege escalation via MSI installer Repair mode.
-| rdp Microsoft Terminal Services            | ------------ |(https://www.cve.org/CVERecord?id=CVE-2014-0296).  The Remote Desktop Protocol (RDP) implementation in Microsoft Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly encrypt sessions, which makes it easier for man-in-the-middle attackers to obtain sensitive information by sniffing the network or modify session content by sending crafted RDP packets, aka "RDP MAC Vulnerability."
-| smtp Exim smtpd 4.92                       | ------------ |(https://www.cve.org/CVERecord?id=CVE-2023-51766).  Exim before 4.97.1 allows SMTP smuggling in certain PIPELINING/CHUNKING configurations. Remote attackers can use a published exploitation technique to inject e-mail messages with a spoofed MAIL FROM address, allowing bypass of an SPF protection mechanism. This occurs because Exim supports <LF>.<CR><LF> but some other popular e-mail servers do not.
-| telnet BSD telnetd                         | https://www.exploit-db.com/exploits/21018  https://www.exploit-db.com/exploits/19520  https://www.exploit-db.com/exploits/409                     |(https://www.cve.org/CVERecord?id=CVE-2011-4862).  Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
-| netbios-ssn Samba 3.6.25                   | ------------ |(https://www.cve.org/CVERecord?id=CVE-2015-0240).  The Netlogon server implementation in smbd in Samba 3.5.x and 3.6.x before 3.6.25, 4.0.x before 4.0.25, 4.1.x before 4.1.17, and 4.2.x before 4.2.0rc5 performs a free operation on an uninitialized stack pointer, which allows remote attackers to execute arbitrary code via crafted Netlogon packets that use the ServerPasswordSet RPC API, as demonstrated by packets reaching the _netr_ServerPasswordSet function in rpc_server/netlogon/srv_netlog_nt.c.
-| microsoft-ds Windows 7 - Samba file sharing| ------------ |(https://www.cve.org/CVERecord?id=CVE-2007-2407).  The Samba server on Apple Mac OS X 10.3.9 and 10.4.10, when Windows file sharing is enabled, does not enforce disk quotas after dropping privileges, which allows remote authenticated users to use disk space in excess of quota.
-| mysql MySQL 5.5.62                         | ------------ |------------------| 
-| vnc UltraVNC 1.2.1.7                       | ------------ |(https://www.cve.org/CVERecord?id=CVE-2019-8280)  UltraVNC revision 1203 has out-of-bounds access vulnerability in VNC client inside RAW decoder, which can potentially result code execution. This attack appear to be exploitable via network connectivity. This vulnerability has been fixed in revision 1204.
-
 
 # Web-Based Attack Surfaces
 Web-based attacks exploit vulnerabilities in web applications to gain unauthorized access, steal data, or disrupt services. Common attack types include SQL Injection, XSS, CSRF, File Inclusion, Command Injection, Broken Authentication, Directory Traversal, Security Misconfiguration, Insecure Deserialization, and SSRF. To protect against these attacks, employ secure coding practices, input validation, proper authentication mechanisms, and regularly update and configure your web applications and servers.
