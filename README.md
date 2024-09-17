@@ -149,12 +149,6 @@ Run the Scan:
 
 - run
 
-![msconf](Images/msconf.png)
-
-![searchtype](Images/searchtype.png)
-
-![aux](Images/auxiliary.png)
-
 
 # Web-Based Attack Surfaces
 Web-based attacks exploit vulnerabilities in web applications to gain unauthorized access, steal data, or disrupt services. Common attack types include SQL Injection, XSS, CSRF, File Inclusion, Command Injection, Broken Authentication, Directory Traversal, Security Misconfiguration, Insecure Deserialization, and SSRF. To protect against these attacks, employ secure coding practices, input validation, proper authentication mechanisms, and regularly update and configure your web applications and servers.
