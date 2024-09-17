@@ -126,6 +126,8 @@ First we launch msfconsole;
 
 - msfconsole
 
+![msconf](Images/msconf.png)
+
 Then select an Auxiliary Module:
 
 For example, if you want to scan mysql services for vulnerabilities:
