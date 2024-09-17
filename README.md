@@ -140,6 +140,9 @@ Point RHOSTS to the protocol-specific file:
 
 - set RHOSTS file:/path/to/protocol_specific_file.txt
 
+![RHOSTS_file](Images/RHOSTS_file.png)
+
+
 Run the Scan:
 
 - run
